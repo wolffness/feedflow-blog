@@ -2,6 +2,8 @@ backend:
   name: github
   repo: wolffness/feedflow-blog
   branch: main
+  base_url: https://blog.feed-flow.app
+  auth_endpoint: /api/auth
 
 site_url: https://blog.feed-flow.app
 display_url: https://blog.feed-flow.app
