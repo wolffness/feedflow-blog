@@ -39,3 +39,89 @@ collections:
       - { label: "Destaque", name: "featured", widget: "boolean", default: false }
       - { label: "Rascunho", name: "draft", widget: "boolean", default: true }
       - { label: "Conteúdo", name: "body", widget: "markdown" }
+
+  - name: "tutoriais"
+    label: "Tutoriais"
+    label_singular: "Tutorial"
+    folder: "src/data/tutoriais"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    sortable_fields: ["pubDatetime", "title"]
+    summary: "{{title}} — {{pubDatetime}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição (SEO)", name: "description", widget: "text" }
+      - { label: "Data de publicação", name: "pubDatetime", widget: "datetime" }
+      - { label: "Data de modificação", name: "modDatetime", widget: "datetime", required: false }
+      - { label: "Autor", name: "author", widget: "string", default: "FeedFlow" }
+      - { label: "Imagem destaque", name: "ogImage", widget: "image", required: false }
+      - { label: "Plataforma", name: "platform", widget: "select", options: ["Meta Ads", "Google Shopping", "TikTok Shop", "Pinterest", "Geral"], default: "Geral" }
+      - { label: "Nível", name: "level", widget: "select", options: ["Iniciante", "Intermediário", "Avançado"], default: "Iniciante" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["tutorial"] }
+      - { label: "Destaque", name: "featured", widget: "boolean", default: false }
+      - { label: "Rascunho", name: "draft", widget: "boolean", default: true }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
+
+  - name: "estrategias"
+    label: "Estratégias"
+    label_singular: "Estratégia"
+    folder: "src/data/estrategias"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    sortable_fields: ["pubDatetime", "title"]
+    summary: "{{title}} — {{pubDatetime}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição (SEO)", name: "description", widget: "text" }
+      - { label: "Data de publicação", name: "pubDatetime", widget: "datetime" }
+      - { label: "Data de modificação", name: "modDatetime", widget: "datetime", required: false }
+      - { label: "Autor", name: "author", widget: "string", default: "FeedFlow" }
+      - { label: "Imagem destaque", name: "ogImage", widget: "image", required: false }
+      - { label: "Categoria", name: "category", widget: "select", options: ["ROAS", "Custom Labels", "Filtros", "Segmentação", "Performance", "Sazonalidade"], default: "ROAS" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["estrategia"] }
+      - { label: "Destaque", name: "featured", widget: "boolean", default: false }
+      - { label: "Rascunho", name: "draft", widget: "boolean", default: true }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
+
+  - name: "novidades"
+    label: "Novidades"
+    label_singular: "Novidade"
+    folder: "src/data/novidades"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    sortable_fields: ["pubDatetime", "title"]
+    summary: "{{title}} — {{pubDatetime}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "text" }
+      - { label: "Data de publicação", name: "pubDatetime", widget: "datetime" }
+      - { label: "Autor", name: "author", widget: "string", default: "FeedFlow" }
+      - { label: "Versão", name: "version", widget: "string", required: false }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["changelog"] }
+      - { label: "Rascunho", name: "draft", widget: "boolean", default: true }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
+
+  - name: "guias"
+    label: "Guias"
+    label_singular: "Guia"
+    folder: "src/data/guias"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    sortable_fields: ["pubDatetime", "title"]
+    summary: "{{title}} — {{pubDatetime}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição (SEO)", name: "description", widget: "text" }
+      - { label: "Data de publicação", name: "pubDatetime", widget: "datetime" }
+      - { label: "Data de modificação", name: "modDatetime", widget: "datetime", required: false }
+      - { label: "Autor", name: "author", widget: "string", default: "FeedFlow" }
+      - { label: "Imagem destaque", name: "ogImage", widget: "image", required: false }
+      - { label: "Plataforma", name: "platform", widget: "select", options: ["Meta Ads", "Google Shopping", "TikTok Shop", "Pinterest", "Nuvemshop", "Geral"], default: "Geral" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["guia"] }
+      - { label: "Destaque", name: "featured", widget: "boolean", default: false }
+      - { label: "Rascunho", name: "draft", widget: "boolean", default: true }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
