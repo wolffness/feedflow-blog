@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: wolffness/feedflow-blog
+  branch: main
+  base_url: https://blog.feed-flow.app
+  auth_endpoint: /api/auth
+
+# local_backend: true  # uncomment for local development only
+
+site_url: https://blog.feed-flow.app
+display_url: https://blog.feed-flow.app
+logo_url: https://feed-flow.app/static/img/logo-feedflow-dark.svg
+
+media_folder: "src/assets/images/uploads"
+public_folder: "/src/assets/images/uploads"
+
+slug:
+  encoding: "unicode"
+  clean_accents: true
+
+locale: "pt"
+
+collections:
+  - name: "blog"
+    label: "Artigos"
+    label_singular: "Artigo"
+    folder: "src/data/blog"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    sortable_fields: ["pubDatetime", "title"]
+    summary: "{{title}} — {{pubDatetime}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição (SEO)", name: "description", widget: "text" }
+      - { label: "Data de publicação", name: "pubDatetime", widget: "datetime" }
+      - { label: "Data de modificação", name: "modDatetime", widget: "datetime", required: false }
+      - { label: "Autor", name: "author", widget: "string", default: "FeedFlow" }
+      - { label: "Imagem destaque", name: "ogImage", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["feed-xml"] }
+      - { label: "Destaque", name: "featured", widget: "boolean", default: false }
+      - { label: "Rascunho", name: "draft", widget: "boolean", default: true }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }

@@ -1,0 +1,23 @@
+export const SITE = {
+  website: "https://blog.feed-flow.app/",
+  author: "FeedFlow",
+  profile: "https://feed-flow.app/",
+  desc: "Dicas, tutoriais e estratégias para otimizar seus feeds de produtos e aumentar o ROAS no Meta Ads, Google Shopping, TikTok e Pinterest.",
+  title: "FeedFlow Blog",
+  ogImage: "feedflow-og.jpg",
+  lightAndDarkMode: true,
+  postPerIndex: 6,
+  postPerPage: 8,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  showBackButton: true,
+  editPost: {
+    enabled: false,
+    text: "",
+    url: "",
+  },
+  dynamicOgImage: true,
+  dir: "ltr",
+  lang: "pt-BR",
+  timezone: "America/Sao_Paulo",
+} as const;
