@@ -40,11 +40,17 @@ const isActive = (path: string) => {
     <!-- Logo -->
     <a
       href="/"
-      class="flex items-center gap-2 whitespace-nowrap hover:opacity-80 transition-opacity"
+      class="flex items-center gap-2.5 whitespace-nowrap hover:opacity-80 transition-opacity"
       aria-label="FeedFlow Blog — página inicial"
     >
-      <!-- Wordmark inline — sem dependência de arquivo externo -->
-      <span class="text-xl font-bold tracking-tight" style="color: var(--accent);">
+      <img
+        src="/logo-icon.svg"
+        alt="FeedFlow"
+        width="28"
+        height="28"
+        class="shrink-0"
+      />
+      <span class="text-lg font-bold tracking-tight" style="color: var(--foreground);">
         FeedFlow
       </span>
       <span
