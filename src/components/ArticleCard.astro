@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
 import { getPath } from "@/utils/getPath";
 import { slugifyStr } from "@/utils/slugify";
 import { getReadingTime } from "@/utils/readingTime";
@@ -7,7 +8,7 @@ import { getReadingTime } from "@/utils/readingTime";
 type Props = CollectionEntry<"blog">;
 
 const { id, data, filePath, body } = Astro.props;
-const { title, description, pubDatetime, tags } = data;
+const { title, description, pubDatetime, tags, ogImage } = data;
 
 const readingTime = getReadingTime(body ?? "");
 const href = getPath(id, filePath);
@@ -26,11 +27,23 @@ const displayTags = tags.slice(0, 2).map(t =>
 <article class="group flex flex-col">
   <a
     href={href}
-    class="flex flex-col flex-1 p-5 rounded-xl border transition-all"
+    class="flex flex-col flex-1 rounded-xl border overflow-hidden transition-all"
     style="border-color: var(--border); background: var(--bg-surface);"
     onmouseover="this.style.borderColor='var(--accent)'; this.style.boxShadow='0 4px 16px rgba(179,120,0,0.08)'"
     onmouseout="this.style.borderColor='var(--border)'; this.style.boxShadow='none'"
   >
+    <!-- Thumbnail -->
+    {ogImage && (
+      <div class="w-full overflow-hidden" style="height: 180px;">
+        {typeof ogImage === "string" ? (
+          <img src={ogImage} alt={title} class="w-full h-full object-cover" loading="lazy" />
+        ) : (
+          <Image src={ogImage} alt={title} class="w-full h-full object-cover" loading="lazy" widths={[400, 800]} sizes="(max-width: 640px) 100vw, 400px" />
+        )}
+      </div>
+    )}
+
+    <div class="flex flex-col flex-1 p-5">
     <!-- Tags -->
     {displayTags.length > 0 && (
       <div class="flex flex-wrap gap-1.5 mb-3">
@@ -47,7 +60,7 @@ const displayTags = tags.slice(0, 2).map(t =>
 
     <!-- Title -->
     <h2
-      style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
+      transition:name={slugifyStr(title.replaceAll(".", "-"))}
       class="text-base font-bold leading-snug mb-2 flex-1"
       style="color: var(--foreground); letter-spacing: -0.01em;"
     >
@@ -70,6 +83,7 @@ const displayTags = tags.slice(0, 2).map(t =>
       <time datetime={pubDatetime.toISOString()}>{formattedDate}</time>
       <span aria-hidden="true">·</span>
       <span>{readingTime} leitura</span>
+    </div>
     </div>
   </a>
 </article>
