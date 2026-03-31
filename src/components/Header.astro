@@ -2,7 +2,6 @@
 import IconX from "@/assets/icons/IconX.svg";
 import IconMoon from "@/assets/icons/IconMoon.svg";
 import IconSearch from "@/assets/icons/IconSearch.svg";
-import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
@@ -10,14 +9,12 @@ import { SITE } from "@/config";
 
 const { pathname } = Astro.url;
 
-// Remove trailing slash from current pathname if exists
 const currentPath =
   pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname;
 
 const isActive = (path: string) => {
   const currentPathArray = currentPath.split("/").filter(p => p.trim());
   const pathArray = path.split("/").filter(p => p.trim());
-
   return currentPath === path || currentPathArray[0] === pathArray[0];
 };
 ---
@@ -27,106 +24,121 @@ const isActive = (path: string) => {
   href="#main-content"
   class="absolute start-16 -top-full z-50 bg-background px-3 py-2 text-accent backdrop-blur-lg transition-all focus:top-4"
 >
-  Skip to content
+  Ir para o conteúdo
 </a>
 
-<header
-  class="app-layout flex flex-col items-center justify-between sm:flex-row"
->
+<header class="app-layout flex flex-col items-center justify-between sm:flex-row">
   <div
     id="top-nav-wrap"
     class:list={[
-      "py-4 sm:py-6",
+      "py-4 sm:py-5",
       "border-b border-border",
       "relative w-full bg-background",
-      "flex items-baseline justify-between sm:items-center",
+      "flex items-center justify-between",
     ]}
   >
+    <!-- Logo -->
     <a
       href="/"
-      class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
+      class="flex items-center gap-2 whitespace-nowrap hover:opacity-80 transition-opacity"
+      aria-label="FeedFlow Blog — página inicial"
     >
-      {SITE.title}
+      <!-- Wordmark inline — sem dependência de arquivo externo -->
+      <span class="text-xl font-bold tracking-tight" style="color: var(--accent);">
+        FeedFlow
+      </span>
+      <span
+        class="hidden sm:inline-block text-xs font-medium px-2 py-0.5 rounded-full"
+        style="background: var(--accent-light); color: var(--accent);"
+      >
+        Blog
+      </span>
     </a>
+
+    <!-- Nav right -->
     <nav
       id="nav-menu"
-      class="flex w-full flex-col items-center sm:ms-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0"
+      class="flex w-full flex-col items-center sm:ms-4 sm:flex-row sm:justify-end sm:space-x-1 sm:py-0"
     >
+      <!-- Hamburger (mobile) -->
       <button
         id="menu-btn"
         class="focus-outline self-end p-2 sm:hidden"
-        aria-label="Open Menu"
+        aria-label="Abrir menu"
         aria-expanded="false"
         aria-controls="menu-items"
       >
         <IconX id="close-icon" class="hidden" />
         <IconMenuDeep id="menu-icon" />
       </button>
+
       <ul
         id="menu-items"
         class:list={[
           "mt-4 grid w-44 grid-cols-2 place-content-center gap-2",
-          "[&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium [&>li>a]:hover:text-accent sm:[&>li>a]:px-2 sm:[&>li>a]:py-1",
+          "[&>li>a]:block [&>li>a]:px-3 [&>li>a]:py-2.5 [&>li>a]:text-center [&>li>a]:text-sm [&>li>a]:font-medium [&>li>a]:hover:text-accent sm:[&>li>a]:px-2 sm:[&>li>a]:py-1",
           "hidden",
-          "sm:mt-0 sm:flex sm:w-auto sm:gap-x-5 sm:gap-y-0",
+          "sm:mt-0 sm:flex sm:w-auto sm:items-center sm:gap-x-1 sm:gap-y-0",
         ]}
       >
         <li class="col-span-2">
-          <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
-            Posts
+          <a
+            href="/posts"
+            class:list={[
+              "transition-colors",
+              { "active-nav": isActive("/posts") },
+            ]}
+          >
+            Artigos
           </a>
         </li>
         <li class="col-span-2">
-          <a href="/tags" class:list={{ "active-nav": isActive("/tags") }}>
-            Tags
+          <a
+            href="/tags"
+            class:list={[
+              "transition-colors",
+              { "active-nav": isActive("/tags") },
+            ]}
+          >
+            Temas
           </a>
         </li>
         <li class="col-span-2">
-          <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
-            About
+          <a
+            href="/about"
+            class:list={[
+              "transition-colors",
+              { "active-nav": isActive("/about") },
+            ]}
+          >
+            Sobre
           </a>
         </li>
-        {
-          SITE.showArchives && (
-            <li class="col-span-2">
-              <LinkButton
-                href="/archives"
-                class:list={[
-                  "focus-outline flex justify-center p-3 sm:p-1",
-                  {
-                    "active-nav [&>svg]:stroke-accent": isActive("/archives"),
-                  },
-                ]}
-                title="Archives"
-                aria-label="archives"
-              >
-                <IconArchive class="hidden sm:inline-block" />
-                <span class="sm:sr-only">Archives</span>
-              </LinkButton>
-            </li>
-          )
-        }
+
+        <!-- Search -->
         <li class="col-span-1 flex items-center justify-center">
           <LinkButton
             href="/search"
             class:list={[
-              "focus-outline flex p-3 sm:p-1",
+              "focus-outline flex p-3 sm:p-1.5 rounded-lg hover:bg-muted transition-colors",
               { "[&>svg]:stroke-accent": isActive("/search") },
             ]}
-            title="Search"
-            aria-label="search"
+            title="Buscar artigos"
+            aria-label="Buscar artigos"
           >
             <IconSearch />
-            <span class="sr-only">Search</span>
+            <span class="sr-only">Buscar</span>
           </LinkButton>
         </li>
+
+        <!-- Theme toggle -->
         {
           SITE.lightAndDarkMode && (
             <li class="col-span-1 flex items-center justify-center">
               <button
                 id="theme-btn"
-                class="focus-outline relative size-12 p-4 sm:size-8 hover:[&>svg]:stroke-accent"
-                title="Toggles light & dark"
+                class="focus-outline relative size-10 sm:size-8 p-2 sm:p-1.5 rounded-lg hover:bg-muted transition-colors hover:[&>svg]:stroke-accent"
+                title="Alternar tema claro/escuro"
                 aria-label="auto"
                 aria-live="polite"
               >
@@ -136,6 +148,22 @@ const isActive = (path: string) => {
             </li>
           )
         }
+
+        <!-- CTA -->
+        <li class="col-span-2 sm:col-span-1 sm:ms-2">
+          <a
+            href="https://feed-flow.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-1.5 px-3.5 py-1.5 rounded-full text-sm font-semibold text-white transition-colors"
+            style="background: var(--accent);"
+            onmouseover="this.style.background='var(--accent-hover)'"
+            onmouseout="this.style.background='var(--accent)'"
+          >
+            Começar grátis
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </li>
       </ul>
     </nav>
   </div>
@@ -154,7 +182,7 @@ const isActive = (path: string) => {
       const openMenu = menuBtn.getAttribute("aria-expanded") === "true";
 
       menuBtn.setAttribute("aria-expanded", openMenu ? "false" : "true");
-      menuBtn.setAttribute("aria-label", openMenu ? "Open Menu" : "Close Menu");
+      menuBtn.setAttribute("aria-label", openMenu ? "Abrir menu" : "Fechar menu");
 
       menuItems.classList.toggle("hidden");
       menuIcon.classList.toggle("hidden");
@@ -164,6 +192,5 @@ const isActive = (path: string) => {
 
   toggleNav();
 
-  // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", toggleNav);
 </script>

@@ -3,25 +3,44 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+/* ===== FeedFlow Design System — Warm Cream + Amber ===== */
+
 :root,
 html[data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
+  --background: #FAF8F3;
+  --foreground: #1A1714;
+  --accent: #B37800;
+  --muted: #EDE9E0;
+  --border: #E0DCD0;
+
+  /* Extended tokens */
+  --bg-surface: #FFFFFF;
+  --bg-elevated: #F5F2EB;
+  --text-secondary: #5A4E3A;
+  --text-muted: #8A7E6A;
+  --accent-light: #FFF3D6;
+  --accent-hover: #805800;
 }
 
 html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60;
-  --border: #ab4b08;
+  --background: #1C1A17;
+  --foreground: #E8E4DC;
+  --accent: #D4A000;
+  --muted: #2C2925;
+  --border: #3A3530;
+
+  /* Extended tokens */
+  --bg-surface: #252320;
+  --bg-elevated: #221F1C;
+  --text-secondary: #B8B0A0;
+  --text-muted: #8A7E6A;
+  --accent-light: #2E2508;
+  --accent-hover: #E8B800;
 }
 
 @theme inline {
-  --font-app: var(--font-google-sans-code);
+  --font-app: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
@@ -39,7 +58,7 @@ html[data-theme="dark"] {
     @apply overflow-y-scroll scroll-smooth;
   }
   body {
-    @apply flex min-h-svh flex-col bg-background font-app text-foreground selection:bg-accent/75 selection:text-background;
+    @apply flex min-h-svh flex-col bg-background font-app text-foreground selection:bg-accent/20 selection:text-foreground;
   }
   a,
   button {
@@ -63,7 +82,6 @@ html[data-theme="dark"] {
   @apply underline decoration-wavy decoration-2 underline-offset-8;
 }
 
-/* Source: https://piccalil.li/blog/a-more-modern-css-reset/ */
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 1rem;

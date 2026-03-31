@@ -1,6 +1,5 @@
 ---
 import type { HTMLAttributes } from "astro/types";
-import Socials from "./Socials.astro";
 
 const currentYear = new Date().getFullYear();
 
@@ -17,16 +16,47 @@ const { noMarginTop = false, class: className, ...attrs } = Astro.props;
 >
   <div
     class:list={[
-      "py-6 sm:py-4",
+      "py-6 sm:py-5",
       "border-t border-border",
-      "flex flex-col items-center justify-between sm:flex-row-reverse",
+      "flex flex-col items-center gap-3 sm:flex-row sm:justify-between",
     ]}
   >
-    <Socials />
-    <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row">
-      <span>Copyright &#169; {currentYear}</span>
-      <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
+    <!-- Logo + copyright -->
+    <div class="flex items-center gap-2 text-sm" style="color: var(--text-muted);">
+      <a
+        href="https://feed-flow.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="font-semibold hover:opacity-80 transition-opacity"
+        style="color: var(--accent);"
+      >
+        FeedFlow
+      </a>
+      <span>·</span>
+      <span>© {currentYear}</span>
+      <span>·</span>
+      <span>Todos os direitos reservados</span>
     </div>
+
+    <!-- Links -->
+    <nav class="flex items-center gap-4 text-sm" style="color: var(--text-muted);">
+      <a
+        href="https://feed-flow.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-accent transition-colors"
+      >
+        Produto
+      </a>
+      <a
+        href="/rss.xml"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-accent transition-colors"
+        aria-label="Feed RSS"
+      >
+        RSS
+      </a>
+    </nav>
   </div>
 </footer>

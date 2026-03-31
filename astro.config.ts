@@ -22,8 +22,8 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
     shikiConfig: {
-      // For more themes, visit https://shiki.style/themes
-      themes: { light: "min-light", dark: "night-owl" },
+      // Warm themes: "vitesse-light" (warm) e "one-dark-pro" (popular dark)
+      themes: { light: "vitesse-light", dark: "one-dark-pro" },
       defaultColor: false,
       wrap: false,
       transformers: [
@@ -61,12 +61,20 @@ export default defineConfig({
     preserveScriptOrder: true,
     fonts: [
       {
-        name: "Google Sans Code",
-        cssVariable: "--font-google-sans-code",
+        name: "Inter",
+        cssVariable: "--font-inter",
         provider: fontProviders.google(),
-        fallbacks: ["monospace"],
+        fallbacks: ["system-ui", "-apple-system", "sans-serif"],
         weights: [300, 400, 500, 600, 700],
         styles: ["normal", "italic"],
+      },
+      {
+        name: "JetBrains Mono",
+        cssVariable: "--font-jetbrains-mono",
+        provider: fontProviders.google(),
+        fallbacks: ["ui-monospace", "SFMono-Regular", "monospace"],
+        weights: [400, 500],
+        styles: ["normal"],
       },
     ],
   },
