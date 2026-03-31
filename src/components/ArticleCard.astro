@@ -1,0 +1,75 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getPath } from "@/utils/getPath";
+import { slugifyStr } from "@/utils/slugify";
+import { getReadingTime } from "@/utils/readingTime";
+
+type Props = CollectionEntry<"blog">;
+
+const { id, data, filePath, body } = Astro.props;
+const { title, description, pubDatetime, tags } = data;
+
+const readingTime = getReadingTime(body ?? "");
+const href = getPath(id, filePath);
+
+const formattedDate = pubDatetime.toLocaleDateString("pt-BR", {
+  day: "numeric",
+  month: "short",
+  year: "numeric",
+});
+
+const displayTags = tags.slice(0, 2).map(t =>
+  t.replace(/-/g, " ")
+);
+---
+
+<article class="group flex flex-col">
+  <a
+    href={href}
+    class="flex flex-col flex-1 p-5 rounded-xl border transition-all"
+    style="border-color: var(--border); background: var(--bg-surface);"
+    onmouseover="this.style.borderColor='var(--accent)'; this.style.boxShadow='0 4px 16px rgba(179,120,0,0.08)'"
+    onmouseout="this.style.borderColor='var(--border)'; this.style.boxShadow='none'"
+  >
+    <!-- Tags -->
+    {displayTags.length > 0 && (
+      <div class="flex flex-wrap gap-1.5 mb-3">
+        {displayTags.map(tag => (
+          <span
+            class="text-xs font-medium px-2 py-0.5 rounded-full capitalize"
+            style="background: var(--accent-light); color: var(--accent);"
+          >
+            {tag}
+          </span>
+        ))}
+      </div>
+    )}
+
+    <!-- Title -->
+    <h2
+      style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
+      class="text-base font-bold leading-snug mb-2 flex-1"
+      style="color: var(--foreground); letter-spacing: -0.01em;"
+    >
+      {title}
+    </h2>
+
+    <!-- Description -->
+    <p
+      class="text-sm leading-relaxed mb-4 line-clamp-2"
+      style="color: var(--text-secondary);"
+    >
+      {description}
+    </p>
+
+    <!-- Meta -->
+    <div
+      class="flex items-center gap-1.5 text-xs"
+      style="color: var(--text-muted, var(--text-secondary));"
+    >
+      <time datetime={pubDatetime.toISOString()}>{formattedDate}</time>
+      <span aria-hidden="true">·</span>
+      <span>{readingTime} leitura</span>
+    </div>
+  </a>
+</article>
