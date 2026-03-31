@@ -10,6 +10,7 @@ tags:
   - iniciante
 featured: true
 draft: false
+ogImage: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80"
 ---
 
 Se você anuncia seus produtos no **Meta Ads** (Facebook e Instagram) ou **Google Shopping**, provavelmente já ouviu falar em **Feed XML**. Mas o que é isso exatamente, e por que sua loja precisa de um?
