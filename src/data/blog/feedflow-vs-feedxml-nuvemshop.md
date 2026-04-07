@@ -1,7 +1,7 @@
 ---
 title: "FeedFlow vs FeedXML: Quando Você Precisa de Mais Que Um Feed Simples"
 description: "FeedXML funciona para lojas simples. Mas sem multi-categorização, title builder e compliance. Veja as 5 limitações que aparecem ao crescer."
-pubDatetime: 2026-04-07T10:00:00Z
+pubDatetime: 2026-04-03T10:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/36730470/pexels-photo-36730470.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

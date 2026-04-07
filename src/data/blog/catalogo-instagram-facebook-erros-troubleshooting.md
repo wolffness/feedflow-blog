@@ -1,7 +1,7 @@
 ---
 title: "Catálogo do Facebook/Instagram com Erros: 10 Problemas Comuns e Como Corrigir"
 description: "Catálogo rejeitado no Meta Ads? Veja os 10 erros mais comuns no Commerce Manager e como resolver cada um."
-pubDatetime: 2026-04-07T10:00:00Z
+pubDatetime: 2026-04-04T14:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/7793650/pexels-photo-7793650.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

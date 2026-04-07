@@ -1,7 +1,7 @@
 ---
 title: "Feed na Planilha vs Feed Manager: Quanto Custa Realmente Cada Abordagem"
 description: "Planilha = 16h/mês + erros custosos. Veja cálculo real de tempo, dinheiro e impacto em anúncios no Google Shopping."
-pubDatetime: 2026-04-07T10:00:00Z
+pubDatetime: 2026-04-02T10:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/12969403/pexels-photo-12969403.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

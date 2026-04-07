@@ -1,7 +1,7 @@
 ---
 title: "Google Merchant Center Suspenso: 7 Motivos de 'Declarações Falsas' e Como Resolver"
 description: "Conta suspensa por declarações falsas? Veja os 7 motivos reais no Brasil e checklist de compliance para solicitar revisão."
-pubDatetime: 2026-04-07T10:00:00Z
+pubDatetime: 2026-04-03T14:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/36697936/pexels-photo-36697936.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

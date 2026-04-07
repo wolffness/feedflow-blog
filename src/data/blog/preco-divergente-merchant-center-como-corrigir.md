@@ -1,7 +1,7 @@
 ---
 title: "Preço Divergente no Google Merchant Center: Como Identificar e Corrigir Antes da Suspensão"
 description: "Preço no feed diferente do site? Saiba como identificar divergências, os riscos de suspensão e como atualizar feeds automaticamente."
-pubDatetime: 2026-04-07T10:00:00Z
+pubDatetime: 2026-04-04T10:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/7752894/pexels-photo-7752894.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

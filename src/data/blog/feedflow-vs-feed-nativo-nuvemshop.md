@@ -1,7 +1,7 @@
 ---
 title: "FeedFlow vs. Feed Nativo da Nuvemshop: Quando o Nativo Basta (e Quando Não)"
 description: "Descubra quando o feed nativo da Nuvemshop é suficiente e quando você precisa de um app como FeedFlow para maximizar suas vendas em Google Shopping e Meta Ads"
-pubDatetime: 2026-04-07T10:00:00Z
+pubDatetime: 2026-04-01T10:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/7289707/pexels-photo-7289707.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

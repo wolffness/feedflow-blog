@@ -1,7 +1,7 @@
 ---
 title: "Feed Manager Nuvemshop: Nativo vs Dedicado — Quando Migrar"
 description: "Comparativo: feed nativo, app genérico e FeedFlow. Quando migrar: 100+ SKUs, variações, multi-canal, erros recorrentes."
-pubDatetime: 2026-04-07T10:00:00Z
+pubDatetime: 2026-04-02T14:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/10029877/pexels-photo-10029877.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

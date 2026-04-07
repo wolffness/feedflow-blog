@@ -1,7 +1,7 @@
 ---
 title: "10 Erros de Feed que Derrubam Suas Campanhas no Google Shopping"
 description: "10 erros comuns em feeds que derrubam ROI. Veja o impacto real de cada um e como corrigir antes de campanhas quebrarem."
-pubDatetime: 2026-04-07T10:00:00Z
+pubDatetime: 2026-04-05T10:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/4975666/pexels-photo-4975666.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
