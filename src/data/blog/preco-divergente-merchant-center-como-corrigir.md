@@ -120,7 +120,7 @@ Ainda no Merchant Center:
 
 Isso não vai dizer se há divergência (o diagnóstico já faz isso), mas vai confirmar se o feed está bem formado.
 
-## O Risco Real: Quando Vai de Aviço para Suspensão
+## O Risco Real: Quando Vai de Aviso para Suspensão
 
 O Google não suspende sua conta da noite para o dia por *uma* divergência isolada.
 
