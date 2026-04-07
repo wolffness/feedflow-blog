@@ -1,7 +1,7 @@
 ---
 title: "Catálogo de Produtos em Meta Ads: Como Funciona e Por Que Importa"
 description: "Meta Ads catálogo: Facebook/Instagram shopping, product feeds, como sincronizar, diferenças vs Google Shopping, primeiros passos."
-pubDatetime: 2026-04-03T14:00:00Z
+pubDatetime: 2026-04-03T14:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/16564260/pexels-photo-16564260.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

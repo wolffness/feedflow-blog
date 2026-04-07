@@ -1,7 +1,7 @@
 ---
 title: "Google Shopping Moda: Checklist de Catálogo com 25 Atributos Obrigatórios"
 description: "Feed de produtos moda Google Shopping: 25 atributos essenciais, por que moda tem 3x mais rejeições, checklist download."
-pubDatetime: 2026-04-07T10:00:00Z
+pubDatetime: 2026-04-07T10:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/7109243/pexels-photo-7109243.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

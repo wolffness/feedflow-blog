@@ -1,7 +1,7 @@
 ---
 title: "Checklist de Catálogo para Meta Ads: PDF Grátis Para Download"
 description: "Checklist Meta Ads em PDF: validação de catálogo para Facebook/Instagram Shopping, 40 itens críticos, download grátis."
-pubDatetime: 2026-04-05T10:00:00Z
+pubDatetime: 2026-04-05T10:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/16564260/pexels-photo-16564260.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

@@ -1,7 +1,7 @@
 ---
 title: "Checklist de Catálogo para Google Shopping: PDF Grátis Para Baixar"
 description: "Checklist Google Shopping em PDF: 50 itens de validação para catálogo profissional, antes de anunciar, download grátis."
-pubDatetime: 2026-04-04T10:00:00Z
+pubDatetime: 2026-04-04T10:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

@@ -1,7 +1,7 @@
 ---
 title: "Google Merchant Center: O Que é e Como Usar"
 description: "Google Merchant Center explicado: O que é, como configurar, validação de feed, diagnóstico de qualidade, erros comuns."
-pubDatetime: 2026-04-03T10:00:00Z
+pubDatetime: 2026-04-03T10:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

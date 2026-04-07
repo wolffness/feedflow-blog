@@ -1,7 +1,7 @@
 ---
 title: "Pinterest Shopping: Como Usar Seu Catálogo de Google Sem Retrabalho"
 description: "Pinterest Shopping: reutilizar feed Google, atributos críticos, setup Commerce Manager Pinterest, case 340% ROI."
-pubDatetime: 2026-04-01T10:00:00Z
+pubDatetime: 2026-04-01T10:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/6207736/pexels-photo-6207736.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

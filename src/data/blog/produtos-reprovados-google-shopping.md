@@ -1,7 +1,7 @@
 ---
 title: Produtos Reprovados no Google Shopping - 15 Motivos e Como Corrigir
 description: Guia prático dos 15 erros mais comuns que causam reprovação no Google Merchant Center. Aprenda a identificar, corrigir e prevenir cada um deles.
-pubDatetime: 2026-04-05T14:00:00Z
+pubDatetime: 2026-04-05T14:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

@@ -1,7 +1,7 @@
 ---
 title: "Structured Data (Microdados) vs Feed Google Shopping: Qual Usar?"
 description: "JSON-LD microdata schema.org vs feed XML: quando usar cada um, convergência, conflitos de dados, checklist."
-pubDatetime: 2026-04-02T10:00:00Z
+pubDatetime: 2026-04-02T10:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

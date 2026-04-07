@@ -1,7 +1,7 @@
 ---
 title: "Filtrar Produtos Sem Estoque e Imagem do Feed: Pré-Validação Que Economiza 20h"
 description: "Feed filtrado: remover produtos sem imagem, fora de estoque, antes de Google Ads, audit automático, checklist."
-pubDatetime: 2026-04-01T14:00:00Z
+pubDatetime: 2026-04-01T14:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/5912324/pexels-photo-5912324.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

@@ -1,7 +1,7 @@
 ---
 title: "Multi-canal E-commerce: Gerencie 1 Catálogo em Google, Meta, Pinterest e TikTok"
 description: "Multi-canal strategy: um feed, múltiplos canais, como sincronizar, diferenças de requisitos por plataforma, automação."
-pubDatetime: 2026-04-04T14:00:00Z
+pubDatetime: 2026-04-04T14:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/31454645/pexels-photo-31454645.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"

@@ -1,7 +1,7 @@
 ---
 title: "Políticas Google Shopping Brasil: Checklist Para Não Ser Suspenso"
 description: "Google Shopping políticas Brasil: o que não pode, violações comuns, suspensão de conta, como apelar, compliance checklist."
-pubDatetime: 2026-04-02T14:00:00Z
+pubDatetime: 2026-04-02T14:30:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
