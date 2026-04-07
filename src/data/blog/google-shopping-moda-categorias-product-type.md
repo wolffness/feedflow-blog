@@ -1,6 +1,6 @@
 ---
 title: "Product Type em Google Shopping Moda: Hierarquia Que Aumenta Descoberta 5x"
-description: "Google Shopping moda categorias product_type: hierarquia profunda, exemplos, por que "Vestuário" mata descoberta, drill-down."
+description: "Google Shopping moda categorias product_type: hierarquia profunda, exemplos, por que categoria genérica mata descoberta, drill-down."
 pubDatetime: 2026-04-07T16:30:00Z
 featured: false
 draft: false
