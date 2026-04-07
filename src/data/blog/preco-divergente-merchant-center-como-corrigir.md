@@ -69,7 +69,7 @@ Este é o cenário mais comum em sazonalidades:
 - Até às 7 da manhã, o feed ainda diz R$ 199 (preço da Black Friday)
 - **8 horas de divergência**
 
-Google Scanner passa no meio da noite (Google roda bots 24/7), vê R$ 199 no feed. Seu site já está mostrando R$ 299 de verdade. **Flagged como divergência.**
+Google Scanner passa no meio da noite (Google roda bots 24/7), vê R$ 199 no feed. Seu site já está mostrando R$ 299 de verdade. **Sinalizado como divergência.**
 
 ## Como Diagnosticar em 5 Minutos
 
@@ -81,7 +81,7 @@ Se você suspeita que tem divergência, o Google Merchant Center oferece ferrame
 2. Vá para **Produtos** → **Diagnósticos**
 3. Procure pela seção **Preço divergente** ou **Price mismatch**
 
-Você verá uma lista de produtos com divergência flagged. O Google mostra:
+Você verá uma lista de produtos com divergência sinalizada. O Google mostra:
 - O preço que está no **feed**
 - O preço que o **Google encontrou no site**
 - A **data/hora da divergência**
@@ -207,7 +207,7 @@ Uma loja de eletrônicos roupa premium em Nuvemshop estava com essa defasagem ex
 - **Problema:** Estações mudam preço às 21h (promoção noturna no site)
 - **Resultado:** 18 horas de divergência todo dia
 
-O Google flagged 15% dos produtos como divergência em 3 semanas. Conta foi **suspensa na véspera da Black Friday**.
+O Google sinalizou 15% dos produtos como divergência em 3 semanas. Conta foi **suspensa na véspera da Black Friday**.
 
 Quando voltaram a atualizar o feed a cada 2 horas e adicionaram `sale_price_effective_date`, **nenhuma divergência em 90 dias seguintes**. Campanha foi restaurada. Black Friday aconteceu (e foi sucesso).
 

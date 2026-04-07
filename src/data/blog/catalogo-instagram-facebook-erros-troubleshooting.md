@@ -53,7 +53,7 @@ Exemplo de título rejeitado:
 CAMISETA PREMIUM 100% ALGODÃO!!! SUPER OFERTA - APROVEITA AGORA!!!
 ```
 
-Meta não é contra entusiasmo, mas quer readabilidade. Descrições em CAPS completo reduzem taxa de clique e o algoritmo penaliza isto.
+Meta não é contra entusiasmo, mas quer legibilidade. Descrições em CAPS completo reduzem taxa de clique e o algoritmo penaliza isto.
 
 **Diagnóstico:**
 Na Nuvemshop, veja como você digitou o título. Se mais de 70% está em MAIÚSCULAS, vai ser rejeitado.
