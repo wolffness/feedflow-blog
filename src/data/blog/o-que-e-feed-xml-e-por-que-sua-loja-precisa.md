@@ -8,7 +8,7 @@ tags:
   - google-shopping
   - meta-ads
   - iniciante
-featured: true
+featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 
