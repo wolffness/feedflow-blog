@@ -69,7 +69,7 @@ Deixa eu ser específico. Aqui está o que muda na prática:
 | **Títulos Personalizados (Title Builder)** | Incluso | Incluso no plano Pro (drag-and-drop visual) |
 | **Filtros Avançados** | Inclusos (interface complexa) | Inclusos a partir de Lite (interface simplificada) |
 | **Suporte Inicial** | Email (tempo indefinido) | Email 72h/48h/24h ou chat (depende do plano) |
-| **Onboarding** | Documentação autoatendimento | Produkty + suporte em PT-BR |
+| **Onboarding** | Documentação autoatendimento | Documentação completa + suporte em PT-BR |
 
 ### Resumo Técnico
 
