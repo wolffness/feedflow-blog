@@ -6,7 +6,7 @@ featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/7793650/pexels-photo-7793650.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 tags:
-  - troubleshooting
+  - resolucao-problemas
   - meta-ads
   - nuvemshop
   - feed-de-produtos

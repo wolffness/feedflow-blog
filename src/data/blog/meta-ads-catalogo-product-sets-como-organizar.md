@@ -8,9 +8,9 @@ ogImage: "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?aut
 tags:
   - meta-ads
   - catalogo-meta
-  - product-sets
+  - conjuntos-de-produtos
   - segmentacao-produtos
-  - dynamic-remarketing
+  - remarketing-dinamico
 author: "FeedFlow"
 ---
 

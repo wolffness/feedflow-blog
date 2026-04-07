@@ -9,8 +9,8 @@ tags:
   - feed
   - disponibilidade
   - estoque
-  - in-stock
-  - preorder
+  - em-estoque
+  - pre-venda
 author: "FeedFlow"
 ---
 

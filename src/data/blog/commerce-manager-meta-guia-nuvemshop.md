@@ -10,7 +10,6 @@ tags:
   - commerce-manager
   - catalogo
   - nuvemshop
-  - e-commerce
 author: "FeedFlow"
 ---
 

@@ -10,7 +10,6 @@ tags:
   - shopping
   - catalogo
   - multi-canal
-  - e-commerce
 author: "FeedFlow"
 ---
 

@@ -10,7 +10,6 @@ tags:
   - google-shopping
   - meta-ads
   - feed-de-produtos
-  - e-commerce
 author: "FeedFlow"
 ---
 

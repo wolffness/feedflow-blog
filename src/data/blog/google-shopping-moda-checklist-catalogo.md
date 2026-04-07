@@ -10,7 +10,6 @@ tags:
   - moda
   - feed-produtos
   - checklist
-  - e-commerce
 author: "FeedFlow"
 ---
 

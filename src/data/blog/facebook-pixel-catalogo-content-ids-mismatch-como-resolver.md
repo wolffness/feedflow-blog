@@ -1,12 +1,12 @@
 ---
 title: "Facebook Pixel Não Bate com Catálogo: Como Resolver o content_ids Mismatch"
-description: "Dynamic Ads não funcionam? Saiba como identificar e corrigir o mismatch entre IDs do Pixel e IDs do catálogo no Meta Ads."
+description: "Dynamic Ads não funcionam? Saiba como identificar e corrigir a divergência entre IDs do Pixel e IDs do catálogo no Meta Ads."
 pubDatetime: 2026-04-05T14:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 tags:
-  - troubleshooting
+  - resolucao-problemas
   - meta-ads
   - nuvemshop
   - feed-de-produtos

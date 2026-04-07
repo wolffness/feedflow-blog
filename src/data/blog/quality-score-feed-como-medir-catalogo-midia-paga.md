@@ -1,12 +1,12 @@
 ---
 title: "Quality Score de feed: o que medir para saber se seu catálogo está pronto para mídia paga"
-description: "Framework prático para avaliar a qualidade do seu feed de produtos em 3 dimensões. Scorecard e checklist para preparar seu catálogo antes de investir em Google Shopping e Meta Ads."
+description: "Modelo prático para avaliar a qualidade do seu feed de produtos em 3 dimensões. Scorecard e checklist para preparar seu catálogo antes de investir em Google Shopping e Meta Ads."
 pubDatetime: 2026-04-06T10:00:00Z
 featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/4975666/pexels-photo-4975666.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 tags:
-  - troubleshooting
+  - resolucao-problemas
   - merchant-center
   - nuvemshop
   - feed-de-produtos

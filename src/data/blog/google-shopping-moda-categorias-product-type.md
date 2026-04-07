@@ -9,7 +9,7 @@ tags:
   - google-shopping
   - moda
   - categorias
-  - product-type
+  - tipo-produto
   - seo
 author: "FeedFlow"
 ---

@@ -10,7 +10,6 @@ tags:
   - tiktok-shop
   - catalogo
   - brasil
-  - e-commerce
 author: "FeedFlow"
 ---
 

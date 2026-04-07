@@ -1,6 +1,6 @@
 ---
 title: "Demand Gen com Feed de Produtos: Como Usar no Google para Gerar Demanda"
-description: "Demand gen feed de produtos Google: diferencie de Shopping e Performance Max. Catalog requirements, casos reais e ROI."
+description: "Demand gen feed de produtos Google: diferencie de Shopping e Performance Max. Requisitos de catálogo, casos reais e ROI."
 pubDatetime: 2026-04-07T10:00:00Z
 featured: false
 draft: false
@@ -8,8 +8,7 @@ ogImage: "https://images.pexels.com/photos/6214365/pexels-photo-6214365.jpeg?aut
 tags:
   - demand-gen
   - google-ads
-  - product-feed
-  - e-commerce
+  - feed-de-produtos
 author: "FeedFlow"
 ---
 

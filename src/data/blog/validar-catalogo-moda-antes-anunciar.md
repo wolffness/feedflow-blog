@@ -1,5 +1,5 @@
 ---
-title: "Validar Catálogo de Moda Antes de Anunciar: 30 Checklist Items That Save R$10k"
+title: "Validar Catálogo de Moda Antes de Anunciar: 30 Itens Que Evitam Desperdício de Verba"
 description: "Validação catálogo Google Shopping moda: 30-item checklist, erros silenciosos, audit pré-campanha, diagnóstico automático."
 pubDatetime: 2026-04-07T15:00:00Z
 featured: false

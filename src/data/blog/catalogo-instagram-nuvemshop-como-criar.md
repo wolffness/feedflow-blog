@@ -8,7 +8,6 @@ ogImage: "https://images.pexels.com/photos/7289723/pexels-photo-7289723.jpeg?aut
 tags:
   - nuvemshop
   - instagram
-  - e-commerce
   - catalogo-produtos
 author: "FeedFlow"
 ---

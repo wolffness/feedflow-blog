@@ -9,7 +9,6 @@ tags:
   - google-shopping
   - automacao-de-feeds
   - custo-operacional
-  - e-commerce
 author: "FeedFlow"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - google-shopping
   - merchant-center
   - feed-de-produtos
-  - troubleshooting
+  - resolucao-problemas
 author: "FeedFlow"
 ---
 

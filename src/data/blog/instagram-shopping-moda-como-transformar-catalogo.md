@@ -10,7 +10,6 @@ tags:
   - moda
   - commerce-manager
   - catalogo
-  - e-commerce
 author: "FeedFlow"
 ---
 

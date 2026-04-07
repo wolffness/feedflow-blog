@@ -6,7 +6,7 @@ featured: false
 draft: false
 ogImage: "https://images.pexels.com/photos/7752894/pexels-photo-7752894.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 tags:
-  - troubleshooting
+  - resolucao-problemas
   - merchant-center
   - nuvemshop
   - feed-de-produtos
